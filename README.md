@@ -18,4 +18,15 @@ This GitHub repo is for a Python workshop that Kudzayi (Bam) and I worked on. It
 
 By the end of this workshop, participants should be able to create a basic text-based Rock Paper Scissors game using all the content covered during the session.
 
+## Setup Instructions
+
+1. **Download and Install Python**: 
+   - Visit the [official Python website](https://www.python.org/downloads/) to download the latest version of Python for your operating system.
+   - Follow the installation instructions provided on the website to set up Python on your system.
+
+2. **Using Repl.it**:
+   - Alternatively, you can use Repl.it, an online coding platform.
+   - Visit [Repl.it](https://replit.com/) and create an account if you don't have one.
+   - Create a new Python project to start coding without any local setup required.
+
 Happy coding!

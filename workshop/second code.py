@@ -1,0 +1,25 @@
+import random
+
+# Define the options
+options = ["rock", "paper", "scissors"]
+
+# Get user's choice
+user_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
+
+# Validate user's choice
+if user_choice not in options:
+    print("Invalid choice. Please enter rock, paper, or scissors.")
+else:
+    # Computer selects a random choice
+    computer_choice = random.choice(options)
+    print("The computer chose:" + computer_choice)
+
+    # Determine the winner
+    if user_choice == computer_choice:
+        print("It's a tie!")
+    elif (user_choice == "rock" and computer_choice == "scissors") or \
+         (user_choice == "paper" and computer_choice == "rock") or \
+         (user_choice == "scissors" and computer_choice == "paper"):
+        print("You win!")
+    else:
+        print("Computer wins!")

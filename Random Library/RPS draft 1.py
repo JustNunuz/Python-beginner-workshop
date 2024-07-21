@@ -24,5 +24,3 @@ if user_choice=="paper" and computer_choice=="rock":
     
 if user_choice=="scissors" and computer_choice=="paper":
     print("Player Wins")  
-else:
-    print("User Loses")
